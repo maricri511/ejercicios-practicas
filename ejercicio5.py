@@ -11,7 +11,7 @@ while(cant < 5):
         print("ingrese una nota del 1 al 10")
         cant -=1
 prom = acum /5
-if (prom >7):
+if (prom >= 7):
     print("el alumno aprobó la materia tiene un promedio de " + str(prom))
 else:
     print("el alumno reprobó la materia tiene un promedio de " + str(prom))
